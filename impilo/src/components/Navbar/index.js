@@ -34,7 +34,7 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav scrollNav={scrolNav}>
           <NavbarContainer>
-            <NavLogo to="/">Am I Safe?</NavLogo>
+            <NavLogo to="/">Impilo_Talk</NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
@@ -48,7 +48,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  About Us
+                  About Impilo_Talk
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Discover
+                  How it works
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -73,18 +73,6 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   Services
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to="/signup"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Sign Up
                 </NavLinks>
               </NavItem>
             </NavMenu>
