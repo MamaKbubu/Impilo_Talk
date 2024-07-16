@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Video from "../../videos/video.mp4";
+import Video from "../../videos/video2.mp4";
 import { Button } from "../ButtonElements";
 import {
   HeroContainer,
@@ -29,7 +29,7 @@ const Hero = () => {
       <HeroContent>
         <HeroH1>Safety is Important</HeroH1>
         <HeroP>
-          Come on a journey with us to learn how to stay safe in your community
+          Come and be apart of a community not cares about you and your health.
         </HeroP>
         <HeroBtnWrapper>
           <Link to="about">

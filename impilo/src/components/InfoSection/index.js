@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { Button } from "../ButtonElements";
 import {
   InfoContainer,
@@ -42,19 +43,21 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    to="discover"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
-                    primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
-                    dark2={dark2 ? 1 : 0}
-                  >
-                    {buttonLabel}
-                  </Button>
+                  <Link to="/signin">
+                    <Button
+                      to="discover"
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      primary={primary ? 1 : 0}
+                      dark={dark ? 1 : 0}
+                      dark2={dark2 ? 1 : 0}
+                    >
+                      {buttonLabel}
+                    </Button>
+                  </Link>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
