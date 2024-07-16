@@ -1,7 +1,7 @@
 import React from "react";
-import Icon1 from "../../images/emergency-system.jpg";
-import Icon2 from "../../images/communitywatch.gif";
-import Icon3 from "../../images/safety_training_muncipality.jpg";
+import Icon1 from "../../images/v_consultation.jpg";
+import Icon2 from "../../images/readinginfo.jpg";
+import Icon3 from "../../images/medical_records.jpg";
 import {
   ServicesContainer,
   ServicesH1,
@@ -20,29 +20,28 @@ const Services = () => {
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon src={Icon1} />
-            <ServicesH2>Emergency Response System</ServicesH2>
+            <ServicesH2>Virtual Consultations</ServicesH2>
             <ServicesP>
-              Our SOS alert system connects to your phone or smartwatch,
-              instantly notifying SAFE agents and local authorities in case of
-              an emergency, ensuring a swift response.
+              This service allows patients to have virtual consultations with
+              healthcare professionals (doctors, nurses, and counselors) via
+              video conferencing.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon2} />
-            <ServicesH2>Community Watch Programs</ServicesH2>
+            <ServicesH2>Health Education Resources</ServicesH2>
             <ServicesP>
-              Our community watch programs are designed to keep you safe in your
-              neighborhood. We provide training and resources to help you and
-              your neighbors stay safe.
+              This key feature will provide you, as a patient, with access to a
+              library of health education resources, which include articles,
+              videos, and interactive tools
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon3} />
-            <ServicesH2>Safety Education & Training</ServicesH2>
+            <ServicesH2>Electronic Health Records(EHR)</ServicesH2>
             <ServicesP>
-              We offer safety education and training programs to help you stay
-              safe in your community. Our programs are designed to help you
-              recognize and avoid dangerous situations.
+              This service allows healthcare professionals to access and update
+              patients' health records electronically.
             </ServicesP>
           </ServicesCard>
         </ServicesWrapper>
