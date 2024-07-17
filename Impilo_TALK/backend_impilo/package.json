@@ -1,18 +1,8 @@
 {
-    {
-  "name": "fullstack-app",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd backend && nodemon server.js",
-    "client": "cd impilo && npm start"
-  },
-  "dependencies": {
-    "concurrently": "^7.0.0"
-    "name": "backend_impilo",
+  "name": "backend_impilo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +12,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "mongoose": "^8.5.1"
+    "mongoose": "^8.5.1",
+    "nodemon": "^2.0.15"
   }
 }
