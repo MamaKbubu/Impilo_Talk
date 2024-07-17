@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
+// import About from "./About";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);

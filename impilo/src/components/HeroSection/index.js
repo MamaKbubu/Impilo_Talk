@@ -27,7 +27,7 @@ const Hero = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Safety is Important</HeroH1>
+        <HeroH1>Your Health is Important</HeroH1>
         <HeroP>
           Come and be apart of a community not cares about you and your health.
         </HeroP>

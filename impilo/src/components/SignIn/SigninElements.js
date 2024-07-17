@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import video from "../../videos/agreed.mp4";
+import video from "../../videos/video2.mp4";
 
 export const Container = styled.div`
   min-height: 692px;
@@ -11,15 +11,15 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background : url(${video});
+  background: url(${video});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-//   background: linear-gradient(
+  background: linear-gradient(
     108deg,
-    rgba(1, 147, 86, 1) 0%,
-    rgba(10, 201, 122, 1) 100%
+    rgba(220, 20, 60, 1) 0%,
+    /* Crimson */ rgba(255, 182, 193, 1) 100% /* Light red (light pink) */
   );
 `;
 
@@ -97,7 +97,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-  background: #01bf71;
+  background: crimson;
   padding: 16px 0;
   border: none;
   border-radius: 4px;

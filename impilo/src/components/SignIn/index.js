@@ -41,7 +41,7 @@ const SignIn = () => {
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">SAFE Agent</Icon>
+          <Icon to="/">Impilo_Talk Client</Icon>
           <FormContent>
             <Form onSubmit={handleSubmit}>
               <FormH1>
